@@ -6,18 +6,18 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
 <style scoped>
 a:hover {
   text-decoration: underline;
 }
+
 .footer {
   padding: 157px 0 90px;
 }
+
 .footer__name,
 .footer__policy {
   font-size: 12px;
@@ -37,6 +37,7 @@ a:hover {
     display: flex;
     justify-content: center;
   }
+
   .footer__name {
     margin-right: 50px;
   }

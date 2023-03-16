@@ -14,14 +14,9 @@ export default {
 
 <style>
 @font-face {
-  font-family: gheagrapalat;
-  src: url("@/assets/fonts/gheagrapalat.otf") format("otf");
+  font-family: GheaGrapalat, sans-serif;
+  src: url("@/assets/fonts/gheagrapalat.otf") format("opentype");
   font-weight: normal;
-}
-
-@font-face {
-  font-family: gheamariam;
-  src: url("@/assets/fonts/gheamariam.otf") format("otf");
 }
 
 * {
@@ -32,9 +27,10 @@ export default {
   color: #EEEBE6;
   text-transform: uppercase;
 }
+
 body {
   background-color: #21354B;
-  font-family: gheagrapalat, Verdana, sans-serif;
+  font-family: GheaGrapalat, sans-serif;
 }
 
 </style>
